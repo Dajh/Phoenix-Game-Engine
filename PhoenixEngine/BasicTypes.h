@@ -1,0 +1,26 @@
+#pragma once
+
+#ifndef BASIC_TYPES_H
+#define BASIC_TYPES_H
+
+	enum GraphicPrimitiveType {
+		GRAPH_PRIM_NULL = 0,
+		GRAPH_PRIM_POINT_LIST,
+		GRAPH_PRIM_TRI_LIST,
+		GRAPH_PRIM_TRI_STRIP,
+		GRAPH_PRIM_LINE_LIST,
+		GRAPH_PRIM_LINE_STRIP,
+		GRAPH_PRIM_QUAD_LIST,
+		GRAPH_PRIM_QUAD_STRIP
+	};
+
+	enum PrimitiveType
+	{
+		PRIM_NONE,
+		PRIM_POINT, 
+		PRIM_LINE, 
+		PRIM_TRIANGLE, 
+		PRIM_QUAD
+	};
+
+#endif // !BASIC_TYPES_H
